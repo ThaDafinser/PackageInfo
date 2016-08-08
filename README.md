@@ -10,3 +10,16 @@
 [![Total Downloads](https://poser.pugx.org/thadafinser/package-info/downloads)](https://packagist.org/packages/thadafinser/package-info) 
 
 WORK IN PROGRESS!!!!
+
+```php
+$bool = \PackageInfo\Package::isInstalled('vendor/package-name'); // return true/false
+
+// may throw PackageNotInstalledException if the package is not installed
+$package = new \PackageInfo\Package('vendor/package-name');
+$package->getName();
+$package->getDescription();
+$package->getVersion();
+$package->getType();
+$package->getKeywords();
+// ...
+```
