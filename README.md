@@ -9,7 +9,9 @@
 [![License](https://poser.pugx.org/thadafinser/package-info/license)](https://packagist.org/packages/thadafinser/package-info)
 [![Total Downloads](https://poser.pugx.org/thadafinser/package-info/downloads)](https://packagist.org/packages/thadafinser/package-info) 
 
-WORK IN PROGRESS!!!!
+This package was highly inspired from [ocramius/package-versions](https://github.com/Ocramius/PackageVersions/)
+
+I needed some methods to read data from the `composer.lock` file fast...this is the result
 
 ```php
 $bool = \PackageInfo\Package::isInstalled('vendor/package-name'); // return true/false
