@@ -6,6 +6,8 @@ tools:
         timeout: 1200
     php_code_coverage:
         enabled: true
+        filter:
+            paths: ["src/*"]
     php_code_sniffer:
         enabled: true
         config:
